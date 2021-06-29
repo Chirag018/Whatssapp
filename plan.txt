@@ -1,0 +1,17 @@
+1.Create NPM project
+
+2. Create Index,css,js files
+
+3.Install dependencies .. express,nodemon
+
+4.Create a express server
+
+5.frontend part
+
+6.install socket.io,setup socket.io in server.js and client.js
+
+7.client send message logic in client.js
+
+8.Recieve message on server and broadcast to all clients
+
+9.Recieve message on client and display it.scrollToBottom etc.,..
