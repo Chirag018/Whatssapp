@@ -1,8 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    width: 1000px;
+    height: 15px;
+    font-style: ubuntu,sans serif;
 }
 
 body {
@@ -13,23 +16,38 @@ body {
     background: #F8F8F8;
     font-family: 'Roboto', sans-serif;
 }
-section.chat__section {
+.chat__section {
     width: 800px;
     max-width: 90%;
     background: #fff;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 .brand {
-    padding: 20px;
-    background: #f1f1f1;
-    display: flex;
-    align-items: center;
+    padding: 25px 135px;
+    /* background: #f1f1f1; */
+    /* display: flex;
+    align-items: center; */
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    /* background-color: rgb(237, 163, 237); */
+    right: 150px;
+    /* text-align: center; */
 }
 .brand h1 {
     text-transform: uppercase;
     font-size: 20px;
     color: #444;
     margin-left: 10px;
+}
+.brand img
+{
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    left: 120px;
+    width: 20px;
 }
 .message__area{
     height: 500px;
@@ -38,14 +56,21 @@ section.chat__section {
     flex-direction: column;
     overflow-y: auto;
     padding-top: 40px;
+    width: 50px;
 }
 textarea {
-    width: 100%;
-    border: none;
-    padding: 20px;
+    right: 400px;
+    width: 45%;
+    display: inline-block;
+    /* padding: 20px; */
     font-size: 16px;
-    outline: none;
+    /* outline: none; */
     background: #FBFBFB;
+    position: absolute;
+    top: 150px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
 }
 
 .message {
